@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   place-items: center;
   gap: 12px;
   font-family: "Bakbak One", cursive;
+  grid-template-columns: 1fr;
 }
 
 .main_header > nav {
@@ -28,9 +30,13 @@ body {
   place-items: center;
 }
 
-.main_header > nav > a {
+.main_header a {
   text-decoration: none;
   color: #0c0707;
+}
+
+.main_header a:hover {
+  color: #f499b0;
 }
 
 .main_main {
@@ -110,9 +116,18 @@ body {
   text-align: center;
 }
 
+ion-icon:hover {
+  fill: #f499b0;
+  cursor: pointer;
+}
+
 .main_footer a {
   text-decoration: none;
   color: #0c0707;
+}
+
+.main_footer a:hover {
+  color: #f499b0;
 }
 
 .footer_socials {
@@ -153,6 +168,9 @@ body {
 }
 
 @media only screen and (min-width: 1015px) {
+  .main_header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .owner_desc {
     grid-template-columns: 1fr 1fr;
   }
