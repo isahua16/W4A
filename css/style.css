@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: #fef7e3;
+  color: #0c0707;
+}
+
+.main_header {
+  min-height: 10vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  font-family: "Bakbak One", cursive;
+}
+
+.main_header > nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.main_header > nav > a {
+  text-decoration: none;
+  color: #0c0707;
+}
+
+.main_main {
+  min-height: 80vh;
+}
+
+.flavours {
+}
+
+.flavour_img {
+  width: 100%;
+}
+
+.owners {
+}
+
+.main_footer {
+  font-family: "Bakbak One", cursive;
+  min-height: 10vh;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.main_footer a {
+  text-decoration: none;
+  color: #0c0707;
+}
+
+.footer_socials {
+  display: grid;
+  gap: 8px;
+}
+
+.footer_socials > div {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_contact {
+  display: grid;
+  gap: 8px;
+}
+
+.footer_contact > div {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer_nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
