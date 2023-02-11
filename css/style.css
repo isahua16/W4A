@@ -38,6 +38,7 @@ body {
 .main_header a {
   text-decoration: none;
   color: #0c0707;
+  transition: color 0.3s ease-in-out;
 }
 
 .main_header a:hover {
@@ -85,6 +86,9 @@ body {
   border-radius: 50%;
 }
 
+.flavour_img:hover {
+}
+
 .owners {
   display: grid;
   justify-items: center;
@@ -121,6 +125,11 @@ body {
   text-align: center;
 }
 
+ion-icon {
+  fill: #0c0707;
+  transition: fill ease-in-out 0.3s;
+}
+
 ion-icon:hover {
   fill: #f499b0;
   cursor: pointer;
@@ -129,6 +138,7 @@ ion-icon:hover {
 .main_footer a {
   text-decoration: none;
   color: #0c0707;
+  transition: color ease-in-out 0.3s;
 }
 
 .main_footer a:hover {
@@ -164,6 +174,10 @@ ion-icon:hover {
 }
 
 @media only screen and (min-width: 665px) {
+  .flavour_type {
+    grid-template-rows: auto 25px 250px;
+  }
+
   .flavour_type > p {
     display: block;
   }
