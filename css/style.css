@@ -40,7 +40,7 @@ body {
 }
 
 #cone {
-  animation: cone_spin 3s ease-in-out infinite;
+  animation: cone_spin 3s linear infinite alternate;
 }
 
 .main_header > nav {
