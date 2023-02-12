@@ -150,6 +150,11 @@ body {
   object-fit: cover;
   object-position: center top;
   border-radius: 50%;
+  animation: flavour_pulse ease-in-out 3s infinite;
+}
+
+.owners_img:hover {
+  animation: flavour_spin ease-in-out 3s infinite alternate;
 }
 
 .main_footer {
